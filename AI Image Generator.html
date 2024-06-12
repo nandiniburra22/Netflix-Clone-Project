@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Generator</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <section class="image-generator">
+        <div class="content">
+            <h1>AI Image Generator Tool JavaScript</h1>
+            <p>Convert your text into an image within a second using this JavaScript powered AI Image Generator</p>
+            <div class="controls">
+                <label><input type="radio" name="image-number" value="1" checked>1 Image</label>
+                <label><input type="radio" name="image-number" value="2">2 Images</label>
+                <label><input type="radio" name="image-number" value="3">3 Images</label>
+                <label><input type="radio" name="image-number" value="4">4 Images</label>
+                <button type="submit" class="generate-btn">Generate</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="image-gallery">
+        <div class="img-card">
+            <img decoding="async" src="images/img-1.jpg" alt="img">
+            <a href="images/img-1.jpg" class="download-btn" download>
+                <img decoding="async" src="images/download.svg" alt="download-icon">
+            </a>
+        </div>
+        <div class="img-card">
+            <img decoding="async" src="images/img-2.jpg" alt="img">
+            <a href="images/img-2.jpg" class="download-btn" download>
+                <img decoding="async" src="images/download.svg" alt="download-icon">
+            </a>
+        </div>
+        <div class="img-card">
+            <img decoding="async" src="images/img-3.jpg" alt="img">
+            <a href="images/img-3.jpg" class="download-btn" download>
+                <img decoding="async" src="images/download.svg" alt="download-icon">
+            </a>
+        </div>
+        <div class="img-card">
+            <img decoding="async" src="images/img-4.jpg" alt="img">
+            <a href="images/img-4.jpg" class="download-btn" download>
+                <img decoding="async" src="images/download.svg" alt="download-icon">
+            </a>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
